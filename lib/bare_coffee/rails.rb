@@ -1,6 +1,6 @@
 module BareCoffee
   class Railitie < ::Rails::Railtie
-    initializer :register_bare_coffee do
+    initializer :register_bare_coffee do |app|
       app.assets.register_engine '.coffee.bare', BareCoffee::Template
     end
   end
