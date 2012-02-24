@@ -14,4 +14,8 @@ module BareCoffee
 
 end
 
-Sprockets.register_engine '.coffee.bare', BareCoffee::Template
+if defined?(Rails::Railtie)
+  require 'bare_coffee/rails' 
+else
+  Sprockets.register_engine '.coffee.bare', BareCoffee::Template
+end
