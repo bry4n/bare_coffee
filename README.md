@@ -6,7 +6,7 @@ All you have to do is add this line to your Gemfile:
     gem 'bare_coffee'
 
 
-This will automatically register "*.coffee.bare" file extension
+This will automatically register "*.bare-coffee" file extension
 
 ### Notes
 

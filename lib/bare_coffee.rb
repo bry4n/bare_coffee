@@ -17,5 +17,5 @@ end
 if defined?(Rails::Railtie)
   require 'bare_coffee/rails' 
 else
-  Sprockets.register_engine '.coffee.bare', BareCoffee::Template
+  Sprockets.register_engine '.bare-coffee', BareCoffee::Template
 end
