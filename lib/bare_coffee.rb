@@ -14,4 +14,4 @@ module BareCoffee
 
 end
 
-Sprockets.register_engine '.coffee.bare', BareCoffee::Template if defined?(Sprockets)
+Sprockets.register_engine '.coffee.bare', BareCoffee::Template
