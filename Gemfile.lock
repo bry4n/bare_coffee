@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bare_coffee (0.1.1)
+    bare_coffee (0.1.2)
       sprockets (~> 2.1.2)
 
 GEM
