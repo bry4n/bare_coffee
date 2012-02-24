@@ -12,5 +12,5 @@ Gem::Specification.new do |gem|
   gem.email         = "bryann83@gmail.com"
   gem.homepage      = "http://github.com/bry4n/bare_coffee"
   gem.files = Dir['**/*']
-  gem.add_dependency "sprockets", "~> 2.3.1"
+  gem.add_dependency "sprockets", "~> 2.1.2"
 end
